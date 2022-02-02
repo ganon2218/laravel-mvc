@@ -20,7 +20,8 @@
     </head>
     <body>
         <center><h1>User Registration</h1></center>
-        <form method="POST" action="">
+        <form method="POST" action="usrreg">
+            @csrf
             <input type="text" id="fname" class ="fname" name="fname" placeholder="First Name">
             <small class="fname-msg" ></small><br><br>
             
